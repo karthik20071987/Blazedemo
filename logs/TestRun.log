@@ -1,0 +1,14 @@
+17:18:27.038 [main] INFO  utils.Base - Cart page is displayed
+17:18:35.072 [main] INFO  utils.Base - Clicked on place order
+17:18:35.841 [main] INFO  utils.Base - Purchase ID is :Id: 6179390
+
+17:18:35.841 [main] INFO  utils.Base - Id: 6179390
+
+17:18:35.867 [main] INFO  utils.Base - Purchase Amount is :Amount: 790 USD
+
+17:18:35.868 [main] INFO  utils.Base - Amount: 790 USD
+
+17:18:35.892 [main] INFO  utils.Base - Purchase ID is :Id: 6179390
+
+17:18:35.906 [main] INFO  utils.Base - Purchase Amount is :Amount: 790 USD
+

@@ -1,0 +1,9 @@
+17:18:13.183 [main] INFO  utils.Base - ***********New Run started***********
+17:18:15.953 [main] INFO  utils.Base - Driver initialized
+17:18:17.289 [main] INFO  utils.Base - Homepage is displayed
+17:18:17.665 [main] INFO  utils.Base - Clicked on phones
+17:18:18.430 [main] INFO  utils.Base - Clicked on monitors
+17:18:18.979 [main] INFO  utils.Base - Clicked on laptops
+17:18:20.112 [main] INFO  utils.Base - Add Sony vaio i5to cart
+17:18:22.942 [main] INFO  utils.Base - Clicked on laptops
+17:18:23.868 [main] INFO  utils.Base - Add Dell i7 8gbto cart

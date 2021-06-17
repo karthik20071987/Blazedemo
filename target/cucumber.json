@@ -1,0 +1,289 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2021-06-17T15:18:11.886Z",
+        "line": 4,
+        "name": "User adds two products, deletes one from cart and completes the purchase",
+        "description": "",
+        "id": "this-feature-is-to-validate-the-purchase-from-demoblaze-website;user-adds-two-products--deletes-one-from-cart-and-completes-the-purchase",
+        "after": [
+          {
+            "result": {
+              "duration": 4185756500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.closeDriver()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 5319044300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is in demoblaze homepage",
+            "match": {
+              "location": "stepdefinitions.HomePageSteps.user_is_in_demoblaze_homepage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 359035300,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User navigates through the category \"Phones\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Phones\"",
+                  "offset": 36
+                }
+              ],
+              "location": "stepdefinitions.HomePageSteps.user_navigates_through_the_category(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 764592800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User navigates through the category \"Monitors\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Monitors\"",
+                  "offset": 36
+                }
+              ],
+              "location": "stepdefinitions.HomePageSteps.user_navigates_through_the_category(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 547563100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User navigates through the category \"Laptops\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Laptops\"",
+                  "offset": 36
+                }
+              ],
+              "location": "stepdefinitions.HomePageSteps.user_navigates_through_the_category(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1132110900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User adds the product \"Sony vaio i5\" to cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Sony vaio i5\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.ProductPageSteps.user_adds_the_product_to_cart(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2377656200,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User accepts the confirmation popup",
+            "match": {
+              "location": "stepdefinitions.ProductPageSteps.user_accepts_the_confirmation_popup()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 453302900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User navigates through the category \"Laptops\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Laptops\"",
+                  "offset": 36
+                }
+              ],
+              "location": "stepdefinitions.HomePageSteps.user_navigates_through_the_category(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 925713800,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User adds the product \"Dell i7 8gb\" to cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dell i7 8gb\"",
+                  "offset": 22
+                }
+              ],
+              "location": "stepdefinitions.ProductPageSteps.user_adds_the_product_to_cart(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2524154500,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User accepts the confirmation popup",
+            "match": {
+              "location": "stepdefinitions.ProductPageSteps.user_accepts_the_confirmation_popup()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 650464900,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User navigates to cart",
+            "match": {
+              "location": "stepdefinitions.CartPageSteps.user_navigates_to_cart()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 7965276300,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User deletes \"Dell i7 8gb\" from cart",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Dell i7 8gb\"",
+                  "offset": 13
+                }
+              ],
+              "location": "stepdefinitions.CartPageSteps.user_deletes_from_cart(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 57762900,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User clicks on Place order",
+            "match": {
+              "location": "stepdefinitions.CartPageSteps.user_clicks_on_place_order()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 629466300,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User fills in the form with following details",
+            "match": {
+              "location": "stepdefinitions.CartPageSteps.user_fills_in_the_form_with_following_details(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "Name_Test",
+                  "Country_Test",
+                  "City_Test",
+                  "Card_Test",
+                  "Month_Test",
+                  "Year_Test"
+                ]
+              }
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63574700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User Clicks on purchase",
+            "match": {
+              "location": "stepdefinitions.CartPageSteps.user_clicks_on_purchase()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 138248900,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "Purchase confirmation popup is displayed with purchaseid and amount",
+            "match": {
+              "location": "stepdefinitions.CartPageSteps.purchase_confirmation_popup_is_displayed_with_purchaseid_and_amount()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 58647300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User Clicks on ok",
+            "match": {
+              "location": "stepdefinitions.CartPageSteps.user_clicks_on_ok()"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Purchase"
+          },
+          {
+            "name": "@Regression"
+          }
+        ]
+      }
+    ],
+    "name": "This feature is to validate the purchase from demoblaze website",
+    "description": "",
+    "id": "this-feature-is-to-validate-the-purchase-from-demoblaze-website",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Demoblaze_OrderItem.feature",
+    "tags": []
+  }
+]

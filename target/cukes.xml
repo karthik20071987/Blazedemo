@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="28.782">
+    <testcase classname="This feature is to validate the purchase from demoblaze website" name="User adds two products, deletes one from cart and completes the purchase" time="28.267">
+        <system-out><![CDATA[Given User is in demoblaze homepage.........................................passed
+When User navigates through the category "Phones"...........................passed
+And User navigates through the category "Monitors"..........................passed
+And User navigates through the category "Laptops"...........................passed
+And User adds the product "Sony vaio i5" to cart............................passed
+And User accepts the confirmation popup.....................................passed
+And User navigates through the category "Laptops"...........................passed
+And User adds the product "Dell i7 8gb" to cart.............................passed
+And User accepts the confirmation popup.....................................passed
+And User navigates to cart..................................................passed
+And User deletes "Dell i7 8gb" from cart....................................passed
+And User clicks on Place order..............................................passed
+And User fills in the form with following details...........................passed
+And User Clicks on purchase.................................................passed
+Then Purchase confirmation popup is displayed with purchaseid and amount....passed
+And User Clicks on ok.......................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
